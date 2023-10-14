@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;400;500;600;700;900&display=swap');
+
+*, body, html {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+    background-image: none;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./dd53d87ffa084978d5d1734b03ec1266.jpg); 
+}
+
+.container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    background-color: grey;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.text {
+    text-align: center; 
+    margin: 12px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form > .top-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-1 input {
+    margin: 20px;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button button:hover {
+    background-color: #0056b3;
+}
